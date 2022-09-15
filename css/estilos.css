@@ -76,7 +76,7 @@ nav a:hover{
 
 
 .hombre{
-    background-image: url(./hombreh.jpg);
+    background-image: url(../imagenes/hombreh.jpg);
     background-size: cover;
     grid-row: 1/4;
     border-radius: 20px;
@@ -87,7 +87,7 @@ nav a:hover{
 
 
 .mujer{
-    background-image: url(./M.jpg);
+    background-image: url(../imagenes/M.jpg);
     background-size: cover;
     grid-row: 1/4;
     border-radius: 20px;
@@ -121,7 +121,7 @@ button:hover{
 }
 
 .niño{
-    background-image: url(./niña.jpg);
+    background-image: url(../imagenes/niña.jpg);
     background-size: cover;
     grid-row: 1/4;
     border-radius: 20px;
@@ -131,7 +131,7 @@ button:hover{
 
 
 .original{
-    background-image: url(./original.jpg);
+    background-image: url(../imagenes/original.jpg);
     background-size: cover;
     grid-row: 1/4;
     border-radius: 20px;

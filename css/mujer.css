@@ -70,7 +70,7 @@ nav a:hover{
 }
 
 .calzado{
-    background-image: url(./zapatilla.jpg);
+    background-image: url(../imagenes/zapatilla.jpg);
     background-size: cover;
     grid-row: 1/4;
     display: flex;
@@ -82,7 +82,7 @@ nav a:hover{
 }
 
 .indumentaria{
-    background-image: url(./induu.jpg);
+    background-image: url(../imagenes/induu.jpg);
     background-size: cover;
     grid-row: 1/4;
     display: flex;
@@ -95,7 +95,7 @@ nav a:hover{
 }
 
 .accesorios{
-    background-image: url(./accesorio.jpg);
+    background-image: url(../imagenes/accesorio.jpg);
     background-size: cover;
     grid-row: 1/4;
     display: flex;
@@ -104,11 +104,6 @@ nav a:hover{
     font-size: 25px;
     border-radius: 20%;
     padding-top: 15px;
-}
-
-.texo-titulo{
-    display: flex;
-    justify-content: center;
 }
 
 .pie-pagina{
@@ -143,3 +138,4 @@ nav a:hover{
     padding: 15px 10px;
     text-align: center;
 }
+
