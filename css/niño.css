@@ -14,6 +14,12 @@ h3{
     font-size: 30px;
 }
 
+h1{
+    font-family: 'Viga', sans-serif;
+    color:black;
+    font-size: 30px;
+}
+
 
 h2{
     font-family:'Viga', sans-serif;
@@ -70,7 +76,8 @@ nav a:hover{
 }
 
 .calzado{
-    background-image: url(../imagenes/zapatilla.jpg);
+    background-image: url(../imagenes/calzadoN.jpeg);
+    background-position: center;
     background-size: cover;
     grid-row: 1/4;
     display: flex;
@@ -79,10 +86,15 @@ nav a:hover{
     font-size: 25px;
     border-radius: 10%;
     padding-top: 15px;
+    color: white;
+}
+
+.calzado:hover{
+    transform: scale(1.1);
 }
 
 .indumentaria{
-    background-image: url(../imagenes/induu.jpg);
+    background-image: url(../imagenes/indumentariaN.jpeg);
     background-size: cover;
     grid-row: 1/4;
     display: flex;
@@ -94,16 +106,25 @@ nav a:hover{
     color: white;
 }
 
+.indumentaria:hover{
+    transform: scale(1.1);
+}
+
 .accesorios{
-    background-image: url(../imagenes/accesorio.jpg);
+    background-image: url(../imagenes/accesoriosN.jpeg);
     background-size: cover;
     grid-row: 1/4;
     display: flex;
     justify-content: center;
     font-weight: bold;
     font-size: 25px;
-    border-radius: 20%;
+    border-radius: 10%;
     padding-top: 15px;
+    color: white;
+}
+
+.accesorios:hover{
+    transform: scale(1.1);
 }
 
 .pie-pagina{

@@ -11,6 +11,12 @@ div h3{
 h3{
     color:white;
 }
+h1{
+    font-family: 'Viga', sans-serif;
+    color:black;
+    font-size: 30px;
+}
+
 h2{
     font-family:'Viga', sans-serif;
     font-size: 36px;
@@ -41,7 +47,7 @@ header{
 nav a{
     font-weight: 600;
     padding: 10px;
-    font-family:'Viga', sans-serif;;
+    font-family:'Viga', sans-serif;
 
 }
 
@@ -75,6 +81,10 @@ nav a:hover{
 
 
 
+
+
+
+
 .hombre{
     background-image: url(../imagenes/hombreh.jpg);
     background-size: cover;
@@ -83,6 +93,11 @@ nav a:hover{
     font-weight: bold;
     font-size: 30px;
 }
+
+.hombre:hover{
+    transform: scale(1.1);
+}
+
 
 
 
@@ -93,32 +108,12 @@ nav a:hover{
     border-radius: 20px;
     font-weight: bold;
     font-size: 30px;
-
 }
 
-
-button{
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    font-weight: 600;
-    padding: 4%;
-    
+.mujer:hover{
+    transform: scale(1.1);
 }
 
-
-
-button:hover{
-    background-color: blue;
-    color: white;
-}
-
-.boton{
-    display: flex;
-    justify-content: center;
-   
-    
-}
 
 .niño{
     background-image: url(../imagenes/niña.jpg);
@@ -129,6 +124,10 @@ button:hover{
     font-size: 30px;
 }
 
+.niño:hover{
+    transform: scale(1.1);
+}
+
 
 .original{
     background-image: url(../imagenes/original.jpg);
@@ -137,6 +136,10 @@ button:hover{
     border-radius: 20px;
     font-weight: bold;
     font-size: 30px;
+}
+
+.original:hover{
+    transform: scale(1.1);
 }
 
 .elegir{
