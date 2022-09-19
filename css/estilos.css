@@ -71,18 +71,13 @@ nav a:hover{
     grid-template-columns: repeat(4 ,1fr);
     grid-template-rows: repeat(3 ,150px);
     margin: auto;
+    margin-top: 50px;
     max-width: 90%;
     padding: 3rem 0;
     font-family:'Viga', sans-serif;
     
    
 }
-
-
-
-
-
-
 
 
 .hombre{
@@ -98,8 +93,15 @@ nav a:hover{
     transform: scale(1.1);
 }
 
-
-
+.boton1{
+    height: 50px;
+    width: 70px;
+    background-color: rgba(247, 253, 249, 0.769);
+    color:orangered;
+    cursor: pointer;
+    transform: translate(100px, 200px);
+    font-weight: bold;
+}
 
 .mujer{
     background-image: url(../imagenes/M.jpg);
@@ -108,10 +110,21 @@ nav a:hover{
     border-radius: 20px;
     font-weight: bold;
     font-size: 30px;
+
 }
 
 .mujer:hover{
     transform: scale(1.1);
+}
+
+.boton2{
+    height: 50px;
+    width: 70px;
+    background-color: rgba(247, 253, 249, 0.769);
+    color:orangered;
+    cursor: pointer;
+    transform: translate(100px, 200px);
+    font-weight: bold;
 }
 
 
@@ -128,6 +141,17 @@ nav a:hover{
     transform: scale(1.1);
 }
 
+.boton3{
+    height: 50px;
+    width: 70px;
+    background-color: rgba(247, 253, 249, 0.769);
+    color:orangered;
+    cursor: pointer;
+    transform: translate(100px, 200px);
+    font-weight: bold;
+}
+
+
 
 .original{
     background-image: url(../imagenes/original.jpg);
@@ -141,6 +165,18 @@ nav a:hover{
 .original:hover{
     transform: scale(1.1);
 }
+
+.boton4{
+    height: 50px;
+    width: 70px;
+    background-color: rgba(247, 253, 249, 0.769);
+    color:orangered;
+    cursor: pointer;
+    transform: translate(100px, 200px);
+    font-weight: bold;
+}
+
+
 
 .elegir{
     display: flex;

@@ -104,6 +104,7 @@ nav a:hover{
     margin: 16px 0;
     font-size: 16px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 
